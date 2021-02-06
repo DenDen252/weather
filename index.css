@@ -1,9 +1,6 @@
 body{
     font-family: 'Raleway', sans-serif;
-}
-
-
-.now{
+}.now{
     background-image:url(./background_img.jpg);
     color: white;
     width: 306px;
