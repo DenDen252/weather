@@ -1,3 +1,4 @@
+import { clear } from "./clear.js";
 import style from "./style.js";
 import { getWeather } from "./url.js";
 
@@ -6,14 +7,7 @@ import { getWeather } from "./url.js";
 export default async function load(city) {
     const response = await fetch(getWeather(city));
     if (!response.ok) {
-        const back = document.querySelector(".now")
-        back.innerHTML = "ERROR 404"
-        const days = document.querySelectorAll(".infa");
-        for (let i = 0; i < days.length; i++) {
-            const element = days[i];
-            element.innerHTML = ""
-            
-        }
+        clear("Error 404");
     }
     const serverData = await response.json();
 
