@@ -1,0 +1,53 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.now{
+    background-image:url(./background_img.jpg);
+    color: white;
+    width: 306px;
+    height: 300px;
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    
+} 
+
+.infa{
+    background-color: gray;
+    color: white;
+    width: 300px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between; 
+    height: 25px;
+    padding: 3px;
+}
+
+/* .border{
+    border: 1px solid black;
+    width: 300px;
+} */
+
+img{
+    height: 110px;
+    width: 110px;
+}
+
+.location{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.min{
+    height: 20px;
+    width: 20px;
+}
+
+input{
+    width: 298px;
+}
+
